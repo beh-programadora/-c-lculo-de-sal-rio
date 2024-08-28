@@ -1,0 +1,38 @@
+
+---
+
+### .gitignore
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env.bak/
+env/
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+Enunciado
+Projeto: Cálculo de Salário Líquido
+
+Desenvolva um script em Python que receba o salário bruto de um funcionário e calcule o salário líquido após a dedução de um imposto de 10%.
+
+Requisitos:
+
+O script deve solicitar ao usuário o valor do salário bruto.
+O imposto deve ser calculado como 10% do salário bruto.
+O valor do salário líquido deve ser exibido com duas casas decimais.
+Critérios de Avaliação:
+
+Correção do cálculo do salário líquido.
+Exibição adequada do resultado.
+Estrutura e clareza do código.
