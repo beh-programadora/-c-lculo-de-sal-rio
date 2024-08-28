@@ -1,0 +1,10 @@
+
+# leitura do salário bruto 
+salario_bruto = float(input("digite o salário bruto: R$"))
+
+# Cálculo do imposto e salário líquido
+imposto = salario_bruto * 0.10
+salario_liquido = salario_bruto - imposto
+
+# Exibição do salário líquido 
+print(f"salário líquido: R${salario_liquido:.2f}")
